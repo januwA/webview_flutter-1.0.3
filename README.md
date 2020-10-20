@@ -10,7 +10,7 @@ dependencies:
   webview_flutter:
     git:
       url: https://github.com/januwA/webview_flutter-1.0.3.git
-      ref: master
+      ref: main
 ```
 
 [![pub package](https://img.shields.io/pub/v/webview_flutter.svg)](https://pub.dartlang.org/packages/webview_flutter)

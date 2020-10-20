@@ -54,8 +54,9 @@ class _HomePageState extends State<HomePage> {
                         'http://jiexi.kingsnug.cn/tx.php?url=http://v.qq.com/x/page/w0019k37ecc.html?ptag=360kan.cartoon.free',
                     javascriptMode: JavascriptMode.unrestricted,
                     onRequest: (String url) async {
+                      print('[[ $url ]]');
                       if (url.contains('https://api.jxyiyi.com/v2/m3u8')) {
-                        Navigator.of(context).pop(url);
+                        // Navigator.of(context).pop(url);
                       }
                     },
                   ),
